@@ -1,6 +1,6 @@
 from rolepermissions.roles import AbstractUserRole
 
-class Administrator(AbstractUserRole):
+class Administrador(AbstractUserRole):
     available_permissions = {
         'criar_usuario': True,
         'modificar_usuario': True,
