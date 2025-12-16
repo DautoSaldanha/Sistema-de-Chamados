@@ -6,7 +6,8 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.pagina_inicial, name='pagina_inicial'),
+    path('', views.abrir_chamado, name='abrir_chamado'),
+    path('visualizar_todos_chamados/', views.visualizar_todos_chamados, name='visualizar_todos_chamados'),
 ]
 
 if settings.DEBUG:

@@ -1,0 +1,65 @@
+Sistema de Chamados / Help Desk
+Perfis
+
+Admin
+
+Gerencia usuários e setores
+
+Atendente
+
+Responde chamados
+
+Altera status
+
+Cliente
+
+Abre e acompanha chamados
+
+Permissões
+
+Cliente só vê seus chamados
+
+Atendente vê chamados do setor
+
+Admin vê tudo
+
+👉 Mostra domínio de:
+
+QuerySets filtrados por usuário
+
+Segurança por backend
+
+Controle de acesso por view
+
+3️⃣ Sistema de Gestão de Empresa (ERP simples)
+Perfis
+
+Diretor
+
+Gerente
+
+Funcionário
+
+Funcionalidades
+
+Controle de estoque
+
+Relatórios financeiros
+
+Registro de vendas
+
+Permissões
+
+Funcionário não vê valores financeiros
+
+Gerente edita estoque
+
+Diretor acessa relatórios completos
+
+👉 Ideal para usar:
+
+has_perm
+
+Permissões customizadas no Meta
+
+Middlewares de autorização

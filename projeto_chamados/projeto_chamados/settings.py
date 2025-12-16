@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'aplicacao_chamados',
+    'rolepermissions',
 ]
 
 MIDDLEWARE = [
@@ -114,3 +115,5 @@ STATICFILES_DIRS = [
 
 # Para quando fizer collectstatic (produção)
 STATIC_ROOT = BASE_DIR / "staticfiles"
+
+ROLEPERMISSIONS_MODULE = 'projeto_chamados.roles'
